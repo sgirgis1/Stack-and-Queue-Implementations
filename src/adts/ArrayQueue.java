@@ -39,7 +39,7 @@ public class ArrayQueue<E> implements QueueInterface<E> {
 
 	@Override
 	public boolean isFull() {
-		return false;
+		return rear == data.length - 1;
 	}
 
 	public String toString() {
