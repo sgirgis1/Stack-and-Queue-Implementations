@@ -38,7 +38,7 @@ public class ArrayStack<E> implements StackInterface<E> {
 
 	@Override
 	public boolean isFull() {
-		return false;
+		return top == data.length - 1;
 	}
 	
 	public String toString() {
